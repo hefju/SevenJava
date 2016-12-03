@@ -13,11 +13,12 @@ import javax.servlet.http.HttpSession;
 public class WelcomeAction extends ActionSupport {
     @Override
     public String execute(){
-
+        System.out.println("进入WelcomeAction控制器");
 
         HttpServletRequest request = ServletActionContext.getRequest();
         HttpSession session = request.getSession();
 //  if(session.getAttribute("userinfo") == null) {
+
             System.out.println("WelcomeAction:"+session.getAttribute("username"));
 
             return SUCCESS;

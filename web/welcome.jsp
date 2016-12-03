@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: rush
@@ -12,5 +13,16 @@
 </head>
 <body>
 welcome:${ Xxx.$username$ }$username$
+
+<h1>Struts 2 ActionError & ActionMessage示例</h1>
+<s:if test="hasActionMessages()">
+    <div class="welcome">
+        <s:actionmessage />
+    </div>
+</s:if>
+<h4>
+    <s:property value="getText('welcome.hello')" />
+    <s:property value="username" />
+</h4>
 </body>
 </html>

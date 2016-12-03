@@ -12,5 +12,9 @@
             <result name="success" >/welcome.jsp</result>
             <result name="login" >/index.jsp</result>
         </action>
+
+        <action name="welcome" class="com.gage.action.WelcomeAction">
+            <result >/welcome.jsp</result>
+        </action>
     </package>
 </struts>

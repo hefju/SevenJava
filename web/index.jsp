@@ -15,8 +15,8 @@
   <h1>Hello World From XNA</h1>
   <div class="container">
       <s:form action="login">
-          <s:textfield label="Username" name="username"></s:textfield>
-          <s:textfield label="Password" name="password"></s:textfield>
+          <s:textfield label="Username用户名" name="username"></s:textfield>
+          <s:textfield label="Password密  码" name="password"></s:textfield>
           <s:submit></s:submit>
       </s:form>
   </div>
