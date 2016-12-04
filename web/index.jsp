@@ -13,6 +13,7 @@
   </head>
   <body>
   <h1>Hello World From XNA</h1>
+  <span>${msg}</span>
   <div class="container">
       <s:form action="login">
           <s:textfield label="Username用户名" name="username"></s:textfield>

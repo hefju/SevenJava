@@ -10,11 +10,18 @@
     <package name="app.default" extends="struts-default">
         <action name="login" class="com.gage.action.LoginAction">
             <result name="success" >/welcome.jsp</result>
-            <result name="login" >/index.jsp</result>
+            <result name="login">/index.jsp</result>
         </action>
 
         <action name="welcome" class="com.gage.action.WelcomeAction">
             <result >/welcome.jsp</result>
+        </action>
+
+        <action name="loginout" class="com.gage.action.LoginAction"  method="loginout">
+            <result name="success" type="redirect">/index.jsp</result>  <!--login.action-->
+        </action>
+        <action name="ShowLoginInfo" class="com.gage.action.LoginAction" method="ShowLoginInfo">
+            <result name="success"  >/welcome.jsp</result>
         </action>
     </package>
 </struts>
