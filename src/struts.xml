@@ -23,5 +23,8 @@
         <action name="ShowLoginInfo" class="com.gage.action.LoginAction" method="ShowLoginInfo">
             <result name="success"  >/welcome.jsp</result>
         </action>
+
+        <action name="ShowLoginInfoJson" class="com.gage.action.LoginAction" method="ShowLoginInfoJson"/>
+
     </package>
 </struts>
