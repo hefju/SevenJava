@@ -3,7 +3,9 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="sessionFactory" value="a2c34154-842b-4448-8abe-f9aca6bcad5b" />
+        </datasource-map>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -48,5 +50,7 @@
     <orderEntry type="library" name="jackson-databind-2.1.0" level="project" />
     <orderEntry type="library" name="jackson-core-2.1.0" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.1.0" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.35-bin" level="project" />
+    <orderEntry type="library" name="spring-web-4.3.0.RELEASE" level="project" />
   </component>
 </module>
